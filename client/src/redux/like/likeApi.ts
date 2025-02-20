@@ -1,12 +1,12 @@
-import Cookies from "js-cookie";
+// import Cookies from "js-cookie";
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 import { BASE_URL } from "../api";
 const baseQuery = fetchBaseQuery({
   baseUrl: BASE_URL,
   credentials: "include",
   prepareHeaders: (headers) => {
-    const token = Cookies.get("jwt");
-
+    // const token = Cookies.get("jwt");
+    const token = localStorage.getItem("jwt");
     if (token) {
       headers.set("Authorization", `Bearer ${token}`);
     } else {

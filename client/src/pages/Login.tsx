@@ -22,6 +22,7 @@ const Login: React.FC = () => {
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     const userDetails = await login(formData).unwrap();
+    localStorage.setItem("jwt", userDetails.token);
     dispatch(setCredentials(userDetails.user));
   };
 
