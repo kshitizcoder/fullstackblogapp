@@ -1,0 +1,150 @@
+[
+  {
+    "author": "678f5f499f49ef45f03b41d9",
+    "title": "Understanding JavaScript Closures",
+    "content": "A closure is a function that retains access to its outer scope, even after the scope has finished executing. Closures are often used for data encapsulation and function factories.",
+    "tags": ["JavaScript", "Programming", "Closures"],
+    "createdAt": "2025-01-24",
+    "category": "JavaScript"
+  },
+  {
+    "author": "679349cab3a5eed32f258d34",
+    "title": "Exploring Node.js for Backend Development",
+    "content": "Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine. It's known for its event-driven, non-blocking I/O model, making it ideal for building scalable and fast network applications.",
+    "tags": ["Node.js", "Backend", "JavaScript"],
+    "createdAt": "2024-08-15"
+  },
+  {
+    "author": "678f5f499f49ef45f03b41d9",
+    "title": "Mastering React: A Beginner's Guide",
+    "content": "React is a JavaScript library for building user interfaces. It allows developers to create reusable UI components that efficiently update in response to data changes.",
+    "tags": ["React", "JavaScript", "Frontend"],
+    "createdAt": "2023-11-10"
+  },
+  {
+    "author": "679349cab3a5eed32f258d34",
+    "title": "CSS Grid vs Flexbox: Which One to Use?",
+    "content": "CSS Grid and Flexbox are both powerful layout systems in CSS. While Grid is great for two-dimensional layouts, Flexbox is best suited for one-dimensional layouts, offering flexibility and responsiveness.",
+    "tags": ["CSS", "Web Development", "Design"],
+    "createdAt": "2023-07-20"
+  },
+  {
+    "author": "678f5f499f49ef45f03b41d9",
+    "title": "The Importance of Clean Code in Software Development",
+    "content": "Writing clean, readable code is essential for maintaining software over time. It improves collaboration, reduces bugs, and ensures scalability. Adopting best practices such as naming conventions and code reviews can make a big difference.",
+    "tags": ["Software Development", "Clean Code", "Programming"],
+    "createdAt": "2022-10-03"
+  },
+  {
+    "author": "679349cab3a5eed32f258d34",
+    "title": "Introduction to Python for Data Science",
+    "content": "Python is a versatile programming language widely used for data science. With powerful libraries such as Pandas, NumPy, and Matplotlib, it's easy to manipulate data, perform statistical analysis, and visualize results.",
+    "tags": ["Python", "Data Science", "Programming"],
+    "createdAt": "2024-05-18"
+  },
+  {
+    "author": "678f5f499f49ef45f03b41d9",
+    "title": "Understanding Asynchronous JavaScript",
+    "content": "Asynchronous programming in JavaScript allows you to execute code without blocking the execution thread. This is especially important when working with web APIs, such as fetching data from servers.",
+    "tags": ["JavaScript", "Async", "Programming"],
+    "createdAt": "2024-01-09"
+  },
+  {
+    "author": "679349cab3a5eed32f258d34",
+    "title": "The Power of TypeScript in Modern Web Development",
+    "content": "TypeScript extends JavaScript by adding static types. It provides better tooling, type safety, and autocompletion, making large-scale JavaScript applications easier to manage and maintain.",
+    "tags": ["TypeScript", "JavaScript", "Web Development"],
+    "createdAt": "2023-06-17"
+  },
+  {
+    "author": "678f5f499f49ef45f03b41d9",
+    "title": "Building Scalable Applications with Microservices",
+    "content": "Microservices is an architectural pattern where applications are built as a collection of loosely coupled services. This approach improves scalability, maintainability, and allows for faster development cycles.",
+    "tags": ["Microservices", "Software Architecture", "Development"],
+    "createdAt": "2022-12-22"
+  },
+  {
+    "author": "679349cab3a5eed32f258d34",
+    "title": "The Future of Web Development with WebAssembly",
+    "content": "WebAssembly allows you to run code written in multiple languages, such as C, C++, or Rust, on the web. This opens up new possibilities for performance-critical applications in the browser.",
+    "tags": ["WebAssembly", "Web Development", "Future Tech"],
+    "createdAt": "2023-09-11"
+  },
+  {
+    "author": "678f5f499f49ef45f03b41d9",
+    "title": "Building Real-Time Applications with WebSockets",
+    "content": "WebSockets provide full-duplex communication channels over a single TCP connection. This makes them ideal for building real-time applications, such as chat apps and live notifications.",
+    "tags": ["WebSockets", "Real-Time Apps", "Web Development"],
+    "createdAt": "2022-08-30"
+  },
+  {
+    "author": "679349cab3a5eed32f258d34",
+    "title": "Automating Web Testing with Selenium",
+    "content": "Selenium is a powerful tool for automating web browsers. It allows you to perform functional testing of web applications, ensuring that your website behaves as expected.",
+    "tags": ["Selenium", "Testing", "Automation"],
+    "createdAt": "2021-12-19"
+  },
+  {
+    "author": "678f5f499f49ef45f03b41d9",
+    "title": "Deep Dive into Git and Version Control",
+    "content": "Git is a distributed version control system that allows teams to collaborate on code. It helps developers manage changes, track history, and maintain multiple versions of code in parallel.",
+    "tags": ["Git", "Version Control", "Development"],
+    "createdAt": "2021-10-27"
+  },
+  {
+    "author": "679349cab3a5eed32f258d34",
+    "title": "How to Optimize SQL Queries for Performance",
+    "content": "Optimizing SQL queries is crucial for improving the performance of database-driven applications. Using indexes, joins, and proper query structures can drastically reduce execution time.",
+    "tags": ["SQL", "Database", "Performance"],
+    "createdAt": "2023-03-13"
+  },
+  {
+    "author": "678f5f499f49ef45f03b41d9",
+    "title": "What is DevOps and How Does it Work?",
+    "content": "DevOps is a set of practices that combines software development and IT operations. It aims to shorten development cycles and improve deployment frequency through automation and continuous integration.",
+    "tags": ["DevOps", "Software Engineering", "CI/CD"],
+    "createdAt": "2022-11-14"
+  },
+  {
+    "author": "679349cab3a5eed32f258d34",
+    "title": "Introduction to Cloud Computing with AWS",
+    "content": "Cloud computing allows businesses to rent computing resources over the internet. Amazon Web Services (AWS) is one of the most popular cloud platforms, offering a wide range of services like compute, storage, and databases.",
+    "tags": ["AWS", "Cloud Computing", "Technology"],
+    "createdAt": "2024-02-06"
+  },
+  {
+    "author": "678f5f499f49ef45f03b41d9",
+    "title": "Exploring Progressive Web Apps (PWAs)",
+    "content": "Progressive Web Apps (PWAs) offer native app-like experiences on the web. They are reliable, fast, and installable, making them ideal for building cross-platform applications.",
+    "tags": ["PWA", "Web Development", "Mobile"],
+    "createdAt": "2023-04-21"
+  },
+  {
+    "author": "679349cab3a5eed32f258d34",
+    "title": "Why GraphQL is the Future of APIs",
+    "content": "GraphQL is a query language for APIs that allows clients to request exactly the data they need, avoiding over-fetching or under-fetching. It provides a more flexible and efficient alternative to REST APIs.",
+    "tags": ["GraphQL", "APIs", "Technology"],
+    "createdAt": "2023-05-12"
+  },
+  {
+    "author": "678f5f499f49ef45f03b41d9",
+    "title": "Building Cross-Platform Mobile Apps with Flutter",
+    "content": "Flutter is an open-source UI toolkit for building natively compiled applications for mobile, web, and desktop from a single codebase. It provides a rich set of pre-designed widgets for building beautiful UIs.",
+    "tags": ["Flutter", "Mobile Development", "Cross-Platform"],
+    "createdAt": "2022-09-16"
+  },
+  {
+    "author": "679349cab3a5eed32f258d34",
+    "title": "Learning Docker for Containerization",
+    "content": "Docker is a platform that allows developers to package applications and dependencies into containers. Containers help ensure consistency across different environments and simplify deployment.",
+    "tags": ["Docker", "DevOps", "Containers"],
+    "createdAt": "2024-03-01"
+  },
+  {
+    "author": "678f5f499f49ef45f03b41d9",
+    "title": "The Importance of Cybersecurity in the Digital Age",
+    "content": "As more data moves online, cybersecurity becomes increasingly important. Implementing strong security measures such as encryption, firewalls, and regular updates helps protect sensitive information from hackers.",
+    "tags": ["Cybersecurity", "Technology", "Security"],
+    "createdAt": "2021-09-28"
+  }
+]

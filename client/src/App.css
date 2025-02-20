@@ -1,0 +1,9 @@
+html {
+  overflow-x: hidden;
+}
+
+
+*::selection {
+  background-color: #155dfc;
+  color: #fff;
+}
