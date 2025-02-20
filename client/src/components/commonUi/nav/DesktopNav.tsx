@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { useAppSelector } from "../../../redux/hooks";
 import { IoIosSearch } from "react-icons/io";
-import NavProfile from "./NavProfile";
 
 const DesktopNav: React.FC = () => {
   const { userInfo } = useAppSelector((state) => state.auth);

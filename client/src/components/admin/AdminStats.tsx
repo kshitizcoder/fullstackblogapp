@@ -1,5 +1,5 @@
 import { useGetAdminStatsQuery } from "../../redux/admin/adminApi";
-import { Bar, Line, Pie } from "react-chartjs-2";
+import { Bar, Line } from "react-chartjs-2";
 import {
   Chart as ChartJS,
   CategoryScale,
@@ -69,18 +69,18 @@ const AdminStats = () => {
     return <div className="text-center text-red-500">Error fetching data</div>;
 
   // Prepare the data for charts
-  const blogCategoryData = {
-    labels: data?.blogCategories.map((cat: BlogCategory) => cat.category),
-    datasets: [
-      {
-        label: "Blog Categories Distribution",
-        data: data?.blogCategories.map((cat: MonthlyData) => cat.count),
-        backgroundColor: "rgba(75, 192, 192, 0.2)",
-        borderColor: "rgba(75, 192, 192, 1)",
-        borderWidth: 1,
-      },
-    ],
-  };
+  // const blogCategoryData = {
+  //   labels: data?.blogCategories.map((cat: BlogCategory) => cat.category),
+  //   datasets: [
+  //     {
+  //       label: "Blog Categories Distribution",
+  //       data: data?.blogCategories.map((cat: MonthlyData) => cat.count),
+  //       backgroundColor: "rgba(75, 192, 192, 0.2)",
+  //       borderColor: "rgba(75, 192, 192, 1)",
+  //       borderWidth: 1,
+  //     },
+  //   ],
+  // };
 
   const blogsPerMonthData = {
     labels: data?.blogsPerMonth.map(

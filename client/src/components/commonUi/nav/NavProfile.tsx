@@ -16,7 +16,7 @@ interface NavProfileProps {
 const NavProfile: React.FC<NavProfileProps> = ({ setIsOpen, isOpen }) => {
   const { userInfo } = useAppSelector((state) => state.auth);
 
-  const { data, refetch } = useProfileQuery(userInfo?.id, {
+  const { data } = useProfileQuery(userInfo?.id, {
     skip: !userInfo?.id,
   });
   const dispatch = useAppDispatch();
