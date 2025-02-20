@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { useProfileQuery } from "../../../redux/auth/userApi";
 import { useNavigate } from "react-router-dom";
 import { FaUser } from "react-icons/fa";

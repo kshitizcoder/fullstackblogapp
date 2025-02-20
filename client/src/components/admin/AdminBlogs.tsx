@@ -3,10 +3,11 @@ import {
   useDeleteBlogMutation,
   useGetBlogsQuery,
 } from "../../redux/blog/blogApi";
-import toast from "react-hot-toast";
+
 import dayjs from "dayjs";
 import { Link } from "react-router-dom";
 import { BASE_URL } from "../../redux/api";
+import { toast } from "react-toastify";
 type CustomErrorData = {
   message: string;
 };

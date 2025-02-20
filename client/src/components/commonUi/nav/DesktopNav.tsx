@@ -74,7 +74,8 @@ const DesktopNav: React.FC = () => {
             />
           </NavLink>
           {userInfo ? (
-            <NavProfile />
+            // <NavProfile />
+            <></>
           ) : (
             <div className="flex gap-5 items-center">
               <NavLink className="text-gray-950 font-medium" to={"/login"}>

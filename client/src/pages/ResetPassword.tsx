@@ -1,7 +1,7 @@
 import { FormEvent, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { useResetPasswordMutation } from "../redux/auth/authApi";
-import toast from "react-hot-toast";
+import { toast } from "react-toastify";
 
 const ResetPassword = () => {
   const { token } = useParams();

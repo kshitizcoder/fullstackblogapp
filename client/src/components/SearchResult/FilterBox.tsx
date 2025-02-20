@@ -1,7 +1,8 @@
 import React, { FormEvent, useEffect, useState } from "react";
 import { useGetAllCategoriesQuery } from "../../redux/category/categoryApi";
-import toast from "react-hot-toast";
+
 import { useNavigate, useSearchParams } from "react-router-dom";
+import { toast } from "react-toastify";
 
 type Category = {
   _id: string;

@@ -6,13 +6,14 @@ import { useGetAllBlogByCategoryQuery } from "../redux/home/homeApi";
 import { IoMdHeart } from "react-icons/io";
 import { FaBookmark } from "react-icons/fa";
 import { useToggleLikeMutation } from "../redux/like/likeApi";
-import toast from "react-hot-toast";
+
 import { useAppSelector } from "../redux/hooks";
 import {
   useGetAllSavedBlogsQuery,
   useToggleSavedBlogMutation,
 } from "../redux/savedBlog/savedBlogApi";
 import { BASE_URL } from "../redux/api";
+import { toast } from "react-toastify";
 type Author = {
   _id: string;
   name: string;
