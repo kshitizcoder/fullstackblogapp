@@ -116,7 +116,7 @@ export const forgetPassword = catchAsync(async (req, res, next) => {
   // const resetUrl = `${req.protocol}://${req.get(
   //   "host"
   // )}/api/v1/users/reset-password/${resetToken}`;
-  const resetUrl = `http://localhost:5173/reset-password/${resetToken}`;
+  const resetUrl = `https://fullstackblogappclient.onrender.com/reset-password/${resetToken}`;
 
   const message = `Forget Your password? Submit your request with new password passwordConfirm to :${resetUrl} \n if you didn't forget your password please ignore this email`;
 
