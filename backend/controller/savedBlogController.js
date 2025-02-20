@@ -1,5 +1,5 @@
 import catchAsync from "../utils/cathAsync.js";
-import AppError from "../utils/AppError.js";
+import AppError from "../utils/appError.js";
 import SavedBlogs from "../model/SavedBlogs.js";
 
 export const toggleSavedBlog = catchAsync(async (req, res, next) => {

@@ -3,7 +3,7 @@ import crypto from "crypto";
 import jwt from "jsonwebtoken";
 import User from "../model/User.js";
 import catchAsync from "../utils/cathAsync.js";
-import AppError from "../utils/AppError.js";
+import AppError from "../utils/appError.js";
 import sendEmail from "../utils/email.js";
 
 const signToken = (id) => {

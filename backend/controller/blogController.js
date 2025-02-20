@@ -1,6 +1,6 @@
 import Blog from "../model/Blog.js";
 import catchAsync from "../utils/cathAsync.js";
-import AppError from "../utils/AppError.js";
+import AppError from "../utils/appError.js";
 import Category from "../model/Category.js";
 import User from "../model/User.js";
 

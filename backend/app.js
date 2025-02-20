@@ -3,7 +3,7 @@ import dotenv from "dotenv";
 import mongoose from "mongoose";
 import cors from "cors";
 import blogRouter from "./route/blogRoutes.js";
-import AppError from "./utils/AppError.js";
+import AppError from "./utils/appError.js";
 import globalErrorHandler from "./controller/errorController.js";
 import userRouter from "./route/userRoutes.js";
 import commentRouter from "./route/commentRoutes.js";

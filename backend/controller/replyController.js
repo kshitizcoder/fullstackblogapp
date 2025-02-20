@@ -1,5 +1,5 @@
 import Reply from "../model/Reply.js";
-import AppError from "../utils/AppError.js";
+import AppError from "../utils/appError.js";
 import catchAsync from "../utils/cathAsync.js";
 
 export const createReply = catchAsync(async (req, res, next) => {

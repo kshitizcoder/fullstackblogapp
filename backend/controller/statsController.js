@@ -4,7 +4,7 @@ import User from "../model/User.js";
 import Comment from "../model/Comment.js";
 import Like from "../model/Like.js";
 import catchAsync from "../utils/cathAsync.js";
-import AppError from "../utils/AppError.js";
+import AppError from "../utils/appError.js";
 
 const getAdminStats = catchAsync(async (req, res, next) => {
   // Count totals

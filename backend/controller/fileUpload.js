@@ -1,7 +1,7 @@
 import multer from "multer";
 import sharp from "sharp";
 import catchAsync from "../utils/cathAsync.js";
-import AppError from "../utils/AppError.js";
+import AppError from "../utils/appError.js";
 
 const multerStorage = multer.memoryStorage();
 

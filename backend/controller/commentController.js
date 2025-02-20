@@ -1,5 +1,5 @@
 import Comment from "../model/Comment.js";
-import AppError from "../utils/AppError.js";
+import AppError from "../utils/appError.js";
 import catchAsync from "../utils/cathAsync.js";
 
 export const createComment = catchAsync(async (req, res, next) => {

@@ -1,5 +1,5 @@
 import Like from "../model/Like.js";
-import AppError from "../utils/AppError.js";
+import AppError from "../utils/appError.js";
 import catchAsync from "../utils/cathAsync.js";
 
 export const toggleLike = catchAsync(async (req, res, next) => {
