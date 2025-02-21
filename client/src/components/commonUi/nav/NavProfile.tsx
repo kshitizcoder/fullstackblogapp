@@ -48,7 +48,7 @@ const NavProfile: React.FC<NavProfileProps> = ({ setIsOpen, isOpen }) => {
       />
       <div
         className={`absolute -right-7 bottom-[-10rem] border border-gray-300 rounded-2xl shadow-[0_20px_50px_rgba(169,_169,_169,_0.9)] px-5 py-4 z-60 flex flex-col gap-4 bg-white h-40 w-60 ${
-          isOpen ? "hidden" : "block"
+          isOpen ? "block" : "hidden"
         }`}
       >
         <button

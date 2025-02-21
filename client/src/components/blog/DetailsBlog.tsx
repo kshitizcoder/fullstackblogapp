@@ -26,7 +26,7 @@ type DetailsBlogProps = {
 const DetailsBlog: React.FC<DetailsBlogProps> = ({ blog }) => {
   return (
     <section>
-      <div className="mx-auto w-[60%] bg-white py-10 shadow-md rounded-lg px-7">
+      <div className="lg:mx-auto lg:w-[60%] px-5 bg-white py-10 shadow-md rounded-lg md:px-7">
         <div>
           <img
             className="h-[67vh] w-full"
@@ -34,16 +34,16 @@ const DetailsBlog: React.FC<DetailsBlogProps> = ({ blog }) => {
             alt=""
           />
         </div>
-        <h2 className="border rounded-lg my-4  text-blue-950 px-3 text-2xl font-bold w-[95%] py-2">
+        <h2 className="border rounded-lg my-4  text-blue-950 px-3 text-2xl font-bold lg:w-[95%] py-2">
           {blog?.title}
         </h2>
 
-        <p className="text-slate-600 border w-[95%]  rounded-lg py-5 px-3">
+        <p className="text-slate-600 border md:w-[95%]  rounded-lg py-5 px-3">
           {blog?.content}
         </p>
         <div className="mt-4 ">
           <h4 className="text-2xl font-medium"> Tags:</h4>
-          <div className="flex gap-8 mt-3 ">
+          <div className="flex gap-8 flex-wrap mt-3 ">
             {blog?.tags?.map((tag: string, i: number) => {
               return (
                 <div key={i} className="">

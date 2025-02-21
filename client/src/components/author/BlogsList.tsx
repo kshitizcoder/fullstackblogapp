@@ -80,7 +80,7 @@ const BlogsList: React.FC = () => {
   }
 
   return (
-    <section className="md:px-5">
+    <section className="px-5">
       {data?.blogs?.length === 0 ? (
         <p className="text-2xl">No Blogs Found</p>
       ) : (

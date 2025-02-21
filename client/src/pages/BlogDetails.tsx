@@ -34,14 +34,14 @@ const BlogDetails: React.FC = () => {
       <DetailsBlog blog={data?.blog} />
 
       {userInfo ? (
-        <div className="mx-auto w-[60%]  shadow-2xl  px-5">
+        <div className="mx-auto lg:w-[60%]  shadow-2xl  px-5">
           <div>
             <AddComments blogId={data?.blog?._id} />
           </div>
           <Comments blogId={data?.blog?._id} comments={data?.blog?.comments} />
         </div>
       ) : (
-        <div className="mx-auto w-[60%] mt-5  shadow-2xl  px-5 py-10">
+        <div className="mx-auto lg:w-[60%] mt-5  shadow-2xl  px-5 py-10">
           <button className="bg-blue-700 text-xl px-5 py-1 rounded  text-white">
             Sign In To Comment{" "}
           </button>
